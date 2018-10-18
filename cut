@@ -1,0 +1,8 @@
+cut -d <delim> -f LIST <file>
+
+<delim>: el delimitador entre comillas
+-f elige los fields
+1,5 -> El 1 y el 5
+4-7 -> Del 4 al 7
+3-  -> Del 3 al final
+
