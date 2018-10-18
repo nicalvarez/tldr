@@ -1,0 +1,26 @@
+* Grafos no-dirigidos
+
+graph {
+    a -- b;
+    b -- c;
+    a -- c;
+    d -- c;
+    e -- c;
+    e -- a;
+}
+
+* Dirigidos (con labels)
+digraph {
+    a -> b [label="0.1"];
+    b -> c;
+    c -> d;
+    d -> a;
+}
+
+* Otros atributos (además de label)
+- style (dashed, dotted, solid, bold)
+- color (red,blue,etc)
+- penwidth (3.0)
+
+* Mandar el output a un Postscript
+dot -Tps grafo.dot -o grafo.ps

@@ -1,0 +1,4 @@
+df - Disk usage stats
+
+Mostrar en megas: df -m 
+Mostrar en maxima unidad posible: df -h

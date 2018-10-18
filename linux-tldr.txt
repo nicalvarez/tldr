@@ -1,0 +1,5 @@
+Copiar a clipboard
+command | xsel -i -b
+
+Ver los archivos que usa un proceso
+lsof -p PID

@@ -1,0 +1,21 @@
+Básico
+    clone https:// 
+    status
+    add <file>
+    commit
+    pull
+    push
+    reset: sacar del próximo commit
+
+
+Salvar user y pass
+git config --global credential.helper cache
+
+Borrar solo de repo
+git rm --cached mylogfile.log
+
+Recuperar archivo original del repo
+git checkout HEAD -- my-file.txt
+
+Mostrar todas las branch (y resaltada la actual)
+git branch

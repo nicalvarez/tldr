@@ -1,0 +1,4 @@
+Dash
+    Pavucontrol -> Input -> Microphone (unplugged)
+    Sound (ver que capture)
+    Audacity -> Grabar y ver -> Ir a pavu (solapa Recording) -> Cambiarle el device

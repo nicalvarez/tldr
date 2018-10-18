@@ -1,0 +1,14 @@
+find <dir> -name '<regexp>'
+find <dir> -iname '<regexp>' (ignorar mayusculas)
+find <dir> -size +100M (archivos > 100 Megas)
+find <dir> -mmin -10  (modificado hace <10 minutos)
+
+# Ejecutar comandos
+find <busqueda> -exec <comando> {} \;  (ejecuta una vez por archivo)
+find <busqueda> -exec <comando> {} +   (le pasa al comando la lista de todos los archivos)
+    {} representa el archivo
+    ej. find . -mmin -5 -exec mv {} /tmp \;
+
+
+# Excluir directorio
+<comando find y sus parametros> -not -path "./directory/*"

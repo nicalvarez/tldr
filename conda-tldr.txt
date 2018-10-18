@@ -1,0 +1,5 @@
+Listar environments
+conda env list
+
+Cambiar(activar) environment
+source activate <env>

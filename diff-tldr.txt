@@ -1,0 +1,2 @@
+Mostrar el diff de archivos no ocultos entre <dir1> y <dir2>
+vimdiff <(cd <dir1>; find . -not -path '*/\.*' | sort) <(cd <dir2>; find . -not -path '*/\.*' | sort)

@@ -1,0 +1,3 @@
+g++ -pg <source>
+valgrind --tool=callgrind ./a.out < test.in 
+gprof2dot -f callgrind callgrind.out.<numero feo> | dot -Tpng -o prof.png
