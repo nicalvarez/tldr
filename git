@@ -19,3 +19,15 @@ git checkout HEAD -- my-file.txt
 
 Mostrar todas las branch (y resaltada la actual)
 git branch
+
+Aliases piolas
+git config --global alias.<alias> <expansion>
+
+    st status
+    co checkout
+    ci commit
+    br branch
+    unstage 'reset HEAD --' ??? Dudoso 
+
+
+
