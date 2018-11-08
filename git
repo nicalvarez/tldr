@@ -18,7 +18,11 @@ Recuperar archivo original del repo
 git checkout HEAD -- my-file.txt
 
 Mostrar todas las branch (y resaltada la actual)
-git branch
+git branch (-vv para más verbosidad)
+
+Limpiar remotes refs que ya no existen más en el server
+git remote prune origin
+
 
 Aliases piolas
 git config --global alias.<alias> <expansion>
