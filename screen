@@ -1,0 +1,2 @@
+# screenception
+ctrl+a a will pass the escape sequence (ctrl+a) to the sub-screen.. So, ctrl+a a d will do ctrl+a d in the sub-screen (detaching it)
