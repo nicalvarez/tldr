@@ -1,0 +1,9 @@
+yt-dlp
+
+--list-formats url (codigos para las diferentes resoluciones)
+--f "bv[height<=540]+ba"
+-o <output-file>
+--download-sections "*00:00-1:30:00" (descarga la primera hora y media)
+--download-sections "*02:00-inf" (de la segunda hora hasta el final)
+-a <batch-file> (archivo con urls)
+
